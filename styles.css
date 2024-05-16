@@ -23,7 +23,9 @@ body {
 
 .navbar a:hover{
     background-color: hsl(0, 0%, 20%);
+    color: orange;
     transition-property: background-color;
+    transition-property: color;
     transition-duration: 0.5s;
 }
 
@@ -46,6 +48,7 @@ body {
 .container h1 {
     font-weight: 400;
     font-size: 80px;
+    color: orange;
 }
 
 .container h3 {
@@ -75,10 +78,19 @@ body {
     text-align: center;
     color: white;
     font-family: "Teachers", sans-serif;
-    padding-top: 60px;
+    padding-top: 160px;
+    padding-bottom: 80px;
 }
 
 .aboutme h2 {
     font-weight: 400;
+    font-size: 55px;
+}
+
+.aboutme p {
     font-size: 35px;
+}
+
+span {
+    color: orange;
 }
