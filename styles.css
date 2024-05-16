@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+    background-color: hsl(0, 0%, 10%);
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 26%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    font-family: "Teachers", sans-serif;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+    font-size: 23px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: hsl(0, 0%, 20%);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.navbar li {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.container {
+    box-sizing: border-box;
+    margin-left: 8%;
+    margin-top: 100px;
+    color: white;
+    font-family: "Teachers", sans-serif;
+}
+
+.container h1 {
+    font-weight: 400;
+    font-size: 80px;
+}
+
+.container h3 {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.picture img {
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    box-shadow: 30px -15px 15px hsl(0, 0%, 26%); 
+}
+
+.picture {
+    float: right;
+    padding-right: 10%;
+    padding-top: 80px;
+}
+
+.maincontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutme {
+    text-align: center;
+    color: white;
+    font-family: "Teachers", sans-serif;
+    padding-top: 60px;
+}
+
+.aboutme h2 {
+    font-weight: 400;
+    font-size: 35px;
+}
