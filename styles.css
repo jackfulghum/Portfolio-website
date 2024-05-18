@@ -7,6 +7,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 
 .navbar ul {
@@ -48,6 +49,7 @@ body {
     margin-top: 160px;
     color: white;
     font-family: "Teachers", sans-serif;
+    padding-bottom: 150px;
 }
 
 .container h1 {
@@ -74,12 +76,12 @@ body {
     padding-top: 140px;
 }
 
-.maincontainer {
+#maincontainer {
     display: flex;
     justify-content: space-around;
 }
 
-.aboutme {
+#aboutme {
     text-align: center;
     color: white;
     font-family: "Teachers", sans-serif;
@@ -87,12 +89,12 @@ body {
     padding-bottom: 80px;
 }
 
-.aboutme h2 {
+#aboutme h2 {
     font-weight: 400;
     font-size: 55px;
 }
 
-.aboutme p {
+#aboutme p {
     font-size: 35px;
 }
 
@@ -100,15 +102,16 @@ span {
     color: orange;
 }
 
-.skills {
+#skills {
     display: block;
     box-sizing: border-box;
     padding-top: 80px;
     padding: 0 20%;
     padding-bottom: 40px;
+    padding-top: 70px;
 }
 
-.skills h2 {
+#skills h2 {
     text-align: center;
     color: white;
     font-family: "Teachers", sans-serif;
@@ -170,4 +173,34 @@ span {
 
 .jsspan {
     color: rgb(245, 245, 152);
+}
+
+#projectscontainer {
+    padding: 50px 0;
+}
+
+#projectscontainer h2 {
+    text-align: center;
+    color: white;
+    font-family: "Teachers", sans-serif;
+    font-weight: 400;
+    font-size: 55px;
+}
+
+#projectscontainer p {
+    text-align: center;
+    color: white;
+    font-family: "Teachers", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    padding: 150px 0;
+}
+
+.hidden {
+    opacity: 0;
+    transition: 2s;
+}
+
+.show {
+    opacity: 1;
 }
