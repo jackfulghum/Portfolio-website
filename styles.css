@@ -1,12 +1,18 @@
 body {
     margin: 0px;
-    background-color: hsl(0, 0%, 10%);
+    background-color: hsl(0, 0%, 10%);;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navbar ul {
     list-style-type: none;
     background-color: hsl(0, 0%, 26%);
-    padding: 0px;
+    padding: 0px 10%;
     margin: 0px;
     overflow: hidden;
     font-family: "Teachers", sans-serif;
@@ -23,24 +29,23 @@ body {
 
 .navbar a:hover{
     background-color: hsl(0, 0%, 20%);
-    color: orange;
-    transition-property: background-color;
-    transition-property: color;
+    transition-property: background-color, color;
     transition-duration: 0.5s;
+    color: orange;
 }
 
 .navbar li {
     float: left;
 }
 
-.right {
+#right {
     float: right;
 }
 
 .container {
     box-sizing: border-box;
     margin-left: 8%;
-    margin-top: 100px;
+    margin-top: 160px;
     color: white;
     font-family: "Teachers", sans-serif;
 }
@@ -66,7 +71,7 @@ body {
 .picture {
     float: right;
     padding-right: 10%;
-    padding-top: 80px;
+    padding-top: 140px;
 }
 
 .maincontainer {
@@ -93,4 +98,76 @@ body {
 
 span {
     color: orange;
+}
+
+.skills {
+    display: block;
+    box-sizing: border-box;
+    padding-top: 80px;
+    padding: 0 20%;
+    padding-bottom: 40px;
+}
+
+.skills h2 {
+    text-align: center;
+    color: white;
+    font-family: "Teachers", sans-serif;
+    font-weight: 400;
+    font-size: 55px;
+}
+
+.skillsimgs {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.langcon {
+    display: flex;
+    align-content: flex-start;
+    color: white;
+    font-family: "Teachers", sans-serif;
+    font-weight: 400;
+    line-height: 50px;
+    width: 100%;
+}
+
+.langcon h3 {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.lang {
+    width: 50%;
+    text-align: center;
+}
+
+.lang ul {
+    padding-left: 0px;
+    font-size: 25px;
+}
+
+.tools {
+    width: 50%;
+    text-align: center;
+}
+
+.tools ul {
+    padding-left: 0px;
+    margin: 0 25%;
+    font-size: 25px;
+}
+
+.htmlspan {
+    color: rgb(225, 128, 103);
+}
+
+.cssspan {
+    color: rgb(156, 156, 238);
+}
+
+.jsspan {
+    color: rgb(245, 245, 152);
 }
