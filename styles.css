@@ -204,3 +204,120 @@ span {
 .show {
     opacity: 1;
 }
+
+@media only screen and (min-width: 300px) and (max-width: 480px) {
+    .navbar a {
+        font-size: 16px;
+        padding: 8px 13px;
+    }
+
+    .navbar ul {
+        padding: 18px 4%;
+    }
+
+    .picture {
+        float: right;
+        padding-right: 2%;
+        padding-top: 140px;
+    }
+
+    .picture img {
+        height: 100px;
+        width: 100px;
+        box-shadow: 10px -10px 10px hsl(0, 0%, 26%); 
+    }
+
+    #maincontainer {
+        display: flex;
+    }
+
+    .container {
+        padding-bottom: 0;
+        margin-left: 6%;
+        margin-top: 120px;
+    }
+
+    .container h1 {
+        font-size: 45px;
+        line-height: 40px;
+    }
+
+    .container h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    #aboutme h2 {
+        font-size: 45px;
+    }
+
+    #aboutme p {
+        font-size: 20px;
+    }
+
+    #aboutme {
+        padding-top: 60px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .skillsimgs {
+        height: 60px;
+    }
+
+    #skills h2 {
+        font-size: 45px;
+    }
+
+    .langcon h3 {
+        font-size: 25px;
+    }
+
+    .lang ul {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .tools ul {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    #skills {
+        padding: 0 10%;
+    }
+
+    #projectscontainer h2 {
+        font-size: 45px;
+    }
+
+    #projectscontainer {
+        padding: 30px 0;
+    }
+
+    #projectscontainer p {
+        padding: 70px 0;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .picture img {
+        width: 210px;
+        height: 210px;
+    }
+
+    .picture {
+        padding-top: 240px;
+        padding-right: 8%;
+    }
+
+    .navbar a {
+        padding: 16px 21px;
+        font-size: 25px;
+    }
+
+    .navbar ul {
+        padding: 20px 5%;
+    }
+}
